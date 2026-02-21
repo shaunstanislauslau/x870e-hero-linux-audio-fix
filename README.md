@@ -42,8 +42,8 @@ Ubuntu's `alsa-ucm-conf` version **1.2.10** does not include this ID. The upstre
 ## Quick Fix
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/x870e-audio-fix.git
-cd x870e-audio-fix
+git clone https://github.com/shaunstanislauslau/x870e-hero-linux-audio-fix.git
+cd x870e-hero-linux-audio-fix
 sudo bash fix-x870e-audio.sh
 systemctl --user restart pipewire pipewire-pulse wireplumber
 ```
